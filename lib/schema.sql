@@ -4,4 +4,8 @@ CREATE TABLE series
 CREATE TABLE subgenres
 (id PRIMARY KEY, name TEXT);
 
+CREATE TABLE authors
+(id PRIMARY KEY, name TEXT);
 
+CREATE TABLE books
+();
