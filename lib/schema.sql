@@ -1,4 +1,4 @@
-"CREATE TABLE series
-(
-  
-);"
+CREATE TABLE series
+( id
+
+);
