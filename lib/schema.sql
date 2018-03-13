@@ -12,3 +12,6 @@ CREATE TABLE books
 
 CREATE TABLE characters
 (id PRIMARY KEY, name TEXT, species TEXT, motto TEXT, series_id TEXT, author_id TEXT);
+
+CREATE TABLE character_books
+();
