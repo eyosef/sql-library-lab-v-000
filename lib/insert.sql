@@ -1,5 +1,5 @@
-INSERT INTO series VALUES(1, harry_potter, jk_rowling, fantasy);
-INSERT INTO series VALUES(2, unfortunate_series, lsnicket, mystery);
+INSERT INTO series VALUES(1, harry_potter, 1, fantasy);
+INSERT INTO series VALUES(2, unfortunate_series, 1, mystery);
 
 INSERT INTO books VALUES(1, sorcerers_stone, 1997, 1);
 INSERT INTO books VALUES(2, chamber_of_secrets, 1999, 1);
