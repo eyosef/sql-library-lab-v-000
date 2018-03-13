@@ -9,7 +9,7 @@ INSERT INTO books VALUES(5, reptile_room, 1999, 2);
 INSERT INTO books VALUES(6, wide_window, 2000, 2);
 
 INSERT INTO characters VALUES (1, hpotter, human, courage, 1, 1);
-INSERT INTO characters VALUES (2, hgrander, human, courage, 1, 1);
+INSERT INTO characters VALUES (2, hgrander, human, smart, 1, 1);
 
 CREATE TABLE characters
 (id INTEGER PRIMARY KEY, name TEXT, species TEXT, motto TEXT, series_id TEXT, author_id TEXT);
