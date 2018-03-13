@@ -1,9 +1,10 @@
 INSERT INTO series VALUES(1, harry potter, jk_rowling, fantasy);
 INSERT INTO series VALUES(2, unfortunate_series, lsnicket, fantasy);
-INSERT INTO series VALUES(2, little_house, lwilder, autobio);
+INSERT INTO series VALUES(3, little_house, lwilder, autobio);
 
 INSERT INTO authors VALUES(1, jkrowling);
 INSERT INTO authors VALUES(2, lsnicket);
+INSERT INTO authors VALUES(3, lwilder);
 
 
 
