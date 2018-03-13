@@ -1,1 +1,1 @@
-INSERT INTO series();
+INSERT INTO series VALUES();
