@@ -8,7 +8,7 @@ CREATE TABLE authors
 (id INTEGER PRIMARY KEY, name TEXT);
 
 CREATE TABLE books
-(id PRIMARY KEY, title TEXT, year INTEGER, series_id INTEGER);
+(id INTEGER PRIMARY KEY, title TEXT, year INTEGER, series_id INTEGER);
 
 CREATE TABLE characters
 (id PRIMARY KEY, name TEXT, species TEXT, motto TEXT, series_id TEXT, author_id TEXT);
