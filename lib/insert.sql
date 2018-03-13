@@ -1,7 +1,8 @@
 INSERT INTO series VALUES(1, harry potter, jk_rowling, fantasy);
 INSERT INTO series VALUES(2, unfortunate_series, lsnicket, fantasy);
 
-INSERT INTO books VALUES(1, sorcerers_stone, 1997);
+INSERT INTO books VALUES(1, sorcerers_stone, 1997, 1);
+
 
 
 INSERT INTO authors VALUES(1, jkrowling);
