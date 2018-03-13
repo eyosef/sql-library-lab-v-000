@@ -1,4 +1,5 @@
 CREATE TABLE series
-( id
+( id PRIMARY KEY,
+
 
 );
