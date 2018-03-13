@@ -18,9 +18,5 @@ INSERT INTO characters VALUES (6, klausb, human, bookworm, 2, 2);
 INSERT INTO characters VALUES (7, sunnyb, human, teeth, 2, 2);
 INSERT INTO characters VALUES (8, olaf, human, antagonist, 2, 2);
 
-CREATE TABLE characters
-(id INTEGER PRIMARY KEY, name TEXT, species TEXT, motto TEXT, series_id TEXT, author_id TEXT);
-
-
 INSERT INTO authors VALUES(1, jkrowling);
 INSERT INTO authors VALUES(2, lsnicket);
