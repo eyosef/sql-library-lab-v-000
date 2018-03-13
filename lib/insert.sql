@@ -1,25 +1,15 @@
-INSERT INTO series VALUES(1, harry_potter, 1, fantasy);
-INSERT INTO series VALUES(2, unfortunate_series, 1, mystery);
+INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "A Song of Ice and Fire", 1, 1), (2, "Second Series", 2, 2);
 
-INSERT INTO books VALUES(1, sorcerers_stone, 1997, 1);
-INSERT INTO books VALUES(2, chamber_of_secrets, 1999, 1);
-INSERT INTO books VALUES(3, prisoner_of_az, 1999, 1);
-INSERT INTO books VALUES(4, bad_beginning, 1999, 2);
-INSERT INTO books VALUES(5, reptile_room, 1999, 2);
-INSERT INTO books VALUES(6, wide_window, 2000, 2);
+INSERT INTO subgenres (id, name) VALUES (1, "medieval"), (2, "space opera");
 
-INSERT INTO characters VALUES (1, hpotter, human, courage, 1, 1);
-INSERT INTO characters VALUES (2, hgrander, human, smart, 1, 1);
-INSERT INTO characters VALUES (3, rweasley, human, humor, 1, 1);
-INSERT INTO characters VALUES (4, dumbledore, human, smart, 1, 1);
+INSERT INTO authors (id, name) VALUES (1, "George R. R. Martin"), (2, "Second Author");
 
-INSERT INTO characters VALUES (5, violetb, human, inventive, 2, 2);
-INSERT INTO characters VALUES (6, klausb, human, bookworm, 2, 2);
-INSERT INTO characters VALUES (7, sunnyb, human, teeth, 2, 2);
-INSERT INTO characters VALUES (8, olaf, human, antagonist, 2, 2);
+INSERT INTO books (id, title, year, series_id) VALUES (1, "Game of Thrones", 1996, 1), (2, "A Clash of Kings", 1998, 1), (3, "A Storm of Swords", 2000, 1), (4, "First Book", 2002, 2), (5, "Second Book", 2003, 2), (6, "Third Book", 2005, 2);
 
-INSERT INTO subgenres (1, fantasy);
-INSERT INTO subgenres (2, mystery);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (1, "Lady", "Woof Woof", "direwolf", 1, 1), (2, "Tyrion Lannister", "A Lannister always pays his debts", "human", 1, 1), (3, "Daenerys Targaryen", "If I look back I am lost", "human", 1, 1), (4, "Eddard Stark", "Winter is coming", "human", 1, 1);
 
-INSERT INTO authors VALUES(1, jkrowling);
-INSERT INTO authors VALUES(2, lsnicket);
+INSERT INTO characters (id, name, motto, species, author_id, series_id) VALUES (5, "Character One", "motto one", "cylon", 2, 2), (6, "Character Two", "motto two", "human", 2, 2), (7, "Character Three", "motto three", "cylon", 2, 2), (8, "Character Four", "motto four", "cylon", 2, 2);
+
+INSERT INTO character_books (id, book_id, character_id) VALUES (1, 1, 1), (2, 1, 2), (3, 2, 2), (4, 3, 2), (5, 1, 3), (6, 2, 3), (7, 3, 3), (8, 1, 4);
+
+INSERT INTO character_books (id, book_id, character_id) VALUES (9, 4, 5), (10, 4, 6), (11, 5, 6), (12, 6, 6), (13, 4, 7), (14, 5, 7), (15, 6, 7), (16, 4, 8);
