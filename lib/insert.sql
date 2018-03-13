@@ -13,7 +13,7 @@ INSERT INTO characters VALUES (2, hgrander, human, smart, 1, 1);
 INSERT INTO characters VALUES (3, rweasley, human, humor, 1, 1);
 INSERT INTO characters VALUES (4, dumbledore, human, smart, 1, 1);
 
-INSERT INTO characters VALUES (5, violetb, human, inventive, 1, 1);
+INSERT INTO characters VALUES (5, violetb, human, inventive, 2, 2);
 
 CREATE TABLE characters
 (id INTEGER PRIMARY KEY, name TEXT, species TEXT, motto TEXT, series_id TEXT, author_id TEXT);
