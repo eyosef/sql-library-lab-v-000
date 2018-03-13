@@ -1,5 +1,5 @@
 CREATE TABLE series
-( title PRIMARY KEY,
+( id PRIMARY KEY,
   title TEXT,
 author_id TEXT,
 subgenre_id TEXT);
