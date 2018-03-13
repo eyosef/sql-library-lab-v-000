@@ -18,5 +18,11 @@ INSERT INTO characters VALUES (6, klausb, human, bookworm, 2, 2);
 INSERT INTO characters VALUES (7, sunnyb, human, teeth, 2, 2);
 INSERT INTO characters VALUES (8, olaf, human, antagonist, 2, 2);
 
+INSERT INTO subgenres ();
+
+CREATE TABLE subgenres
+(id INTEGER PRIMARY KEY, name TEXT);
+
 INSERT INTO authors VALUES(1, jkrowling);
 INSERT INTO authors VALUES(2, lsnicket);
+
