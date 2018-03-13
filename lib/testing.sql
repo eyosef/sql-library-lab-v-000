@@ -23,3 +23,12 @@ INSERT INTO subgenres (2, mystery);
 
 INSERT INTO authors VALUES(1, jkrowling);
 INSERT INTO authors VALUES(2, lsnicket);
+
+def select_character_names_and_number_of_books_they_are_in
+  "SELECT characters.name, COUNT(books.id)
+  FROM characters
+  INNER JOIN books
+  WHERE characters.series_id = books.series_id
+  ORDER BY characters.name
+  ;"
+end
