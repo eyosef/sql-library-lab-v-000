@@ -8,7 +8,5 @@ INSERT INTO authors VALUES(1, jkrowling);
 INSERT INTO authors VALUES(2, lsnicket);
 
 
-
 CREATE TABLE books
 (id INTEGER PRIMARY KEY, title TEXT, year INTEGER, series_id INTEGER);
-
