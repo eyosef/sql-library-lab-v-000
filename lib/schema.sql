@@ -9,3 +9,6 @@ CREATE TABLE authors
 
 CREATE TABLE books
 (id PRIMARY KEY, title TEXT, year INTEGER, series_id INTEGER);
+
+CREATE TABLE characters
+();
